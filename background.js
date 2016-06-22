@@ -9,6 +9,7 @@
 	hjzgg_background.css('background-size', '100% 100%');
 	hjzgg_background.css('opacity', '0.5');
 	assist_background.css('opacity', '0.0');
+	assist_background.css('background-repeat', 'no repeat');
 	hjzgg_background.animate({'background-size': '150%', 'background-position': '-200px', 'opacity': '1.0'}, 3000);
 
 	window.setTimeout(function(){
