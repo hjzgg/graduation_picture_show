@@ -51,7 +51,7 @@
 
         var setting = $.extend(defaults, options);
 
-        let self = this;
+        var self = this;
 
         $.each(setting, function(index, value){
         	var picContent = $('<li><img src="' + value.path + '" title="myLove' + (index+1) + '" /></li>');
